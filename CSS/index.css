@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:url(../back.jpg);
+    background-size: cover;
+}
+form{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.589);
+    width:400px;
+    margin:150px 500px 145px 500px;
+    border: 1px solid hsla(0, 0%, 100%,0.5);
+    border-radius: 5px;
+}
+h2{
+    padding:20px;
+    letter-spacing: 2px;
+    color:black;
+    font-family: 'Pattaya';
+}
+.data{
+    padding:10px 50px 10px 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin:10px;    
+}
+.data:hover{
+    border:1px #0000ff solid;
+}
+.login{
+    margin:8px 8px 20px 8px;
+    background-color: #00acee;
+    text-align: center;
+    padding:10px 20px;
+    border:1px solid  #00acee;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: #ffff;
+}

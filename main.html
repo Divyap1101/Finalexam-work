@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="JS/main.js"></script>
+    <link href="CSS/main.css" rel="stylesheet">
+    <title>Main</title>
+</head>
+<body>
+    <div>
+        <h1>Register a Course</h1>
+    </div>
+    <div>
+        <input type="hidden" id="hid" />
+        <input type="text" placeholder="Course Name" id="name" class="form-control" />
+        <input type="text" placeholder="Teacher Name" id="Tname"  class="form-control" />
+        <input type="text" placeholder="Total Of Hours" id="Hours"  class="form-control"/>
+
+
+        <button id="btnreg" class="btn btn-primary btn-lg" onclick="btnreg()">Register Course</button>
+        <button id="btnsav" class="btn btn-secondary active" onclick="btnsav()">Save the Change</button>
+        <button id="btnrem" class="btn btn-success" onclick="remove()">Remove Course</button>
+        <button id="btncal" class="btn btn-warning" onclick="clean()">Cancel Changes</button>
+
+    </div>
+
+    <table class="table table-bordered" id="tb" >
+        <thead class="thead-dark">
+            <tr id="tb">
+                <th> Unique Code </th>
+                <th>Course Name</th>
+                <th> Teacher Name</th>
+                <th>Total of Hours</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody id="table"> </tbody>  
+    </table>
+</body>
+</html>
